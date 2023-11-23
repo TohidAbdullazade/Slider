@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider-container {
+  position: relative;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.slider-images img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 250px;
+}
+
+.switch-Btns {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  width: 65%;
+}
+.switch-Btns button i {
+  background: transparent;
+  outline-offset: none;
+  outline: none;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
